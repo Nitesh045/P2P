@@ -1,0 +1,15 @@
+{
+  "name": "videocall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npm start --prefix Frontend",
+    "server":"nodemon backend/app.js",
+    "start":"nodemon --watch backend --exec node backend/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
